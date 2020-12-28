@@ -2,12 +2,7 @@
     "name": "Random Number Generator",
     "version": "1.0",
     "description": "Generates random number for You",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-    "options_page": "options.html",
+    "permissions": ["activeTab", "storage"],
     "page_action": {
         "default_popup": "popup.html",
         "default_icon": {

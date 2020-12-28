@@ -1,15 +1,9 @@
-let changeColor = document.getElementById('changeColor');
+let generate = document.getElementById('generate');
 
-chrome.storage.sync.get('color', function(data) {
-    changeColor.style.backgroundColor = data.color;
-    changeColor.setAttribute('value', data.color);
-});
-
-changeColor.onclick = function(element) {
-    let color = element.target.value;
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        chrome.tabs.executeScript(
-            tabs[0].id,
-            {code: 'document.body.style.backgroundColor = "' + color + '";'});
-    });
+generate.onclick = function(element) {
+    // from, to default : 0~9
+    var number = document.getElementById('number');
+    var from = document.getElementById('from');
+    var to = document.getElementById('to');
+    number.innerText = Math.floor(from + Math.random()*(to-from+1));
 };
