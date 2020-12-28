@@ -4,25 +4,45 @@
       <style>
         #generate {
           height: 30px;
-          width: 100px;
+          width: 120px;
           outline: none;
         }
+        label{
+          font-size: 1rem;
+          padding : 1px;
+        }
+        div{
+          padding-left: 3px;
+          padding-right: 3px;
+          padding-bottom: 10px;
+        }
+        input{
+          height: 20px;
+        }
         #number{
-          width: 100%;
+          width: 50%;
           font-size: 2rem;
         }
       </style>
     </head>
     <body>
-      <p id="explanation"></p>
-      <button id="generate">Generate</button>
+      <div>
+        <p id="explanation"></p>
+      </div>
+      <div>
+        <button id="generate">Generate</button>
+      </div>
       <div>
         <label for="quantity">From: </label>
         <input type="number" id="from" value=0>
-        <label for="quantity">To: </label>
-        <input type="number" id="to" value=10>
       </div>
-      <p id="number" rows="3"></p>
+      <div>
+        <label for="quantity">To: </label>
+        <input type="number" id="to" value=9>
+      </div>
+      <div>
+        <p id="number" rows="1"></p>
+      </div>
       <script src="popup.js"></script>
     </body>
   </html>
