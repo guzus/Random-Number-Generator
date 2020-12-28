@@ -1,7 +1,7 @@
 {
-    "name": "Guzus change color",
+    "name": "Random Number Generator",
     "version": "1.0",
-    "description": "My first Extension!",
+    "description": "Generates random number for You",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
