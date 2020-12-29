@@ -1,0 +1,22 @@
+label{
+    font-size: 1rem;
+    padding : 1px;
+    width : 20%;
+}
+div{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+}
+input{
+    height: 20px;
+}
+#generate {
+    height: 30px;
+    width: 120px;
+    background-color: #f5f84d;
+}
+#number{
+    font-size: 2rem;
+    font-weight: bold;
+}

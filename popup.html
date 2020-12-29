@@ -1,34 +1,13 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <style>
-        #generate {
-          height: 30px;
-          width: 120px;
-          outline: none;
-        }
-        label{
-          font-size: 1rem;
-          padding : 1px;
-        }
-        div{
-          padding-left: 3px;
-          padding-right: 3px;
-          padding-bottom: 10px;
-        }
-        input{
-          height: 20px;
-        }
-        #number{
-          width: 50%;
-          font-size: 2rem;
-        }
-      </style>
+      <link rel="stylesheet" href="popup.css">
     </head>
     <body>
       <div>
-        <p id="explanation"></p>
+        <h1 id="explanation">Random Generator</h1>
       </div>
+      
       <div>
         <button id="generate">Generate</button>
       </div>
@@ -41,7 +20,7 @@
         <input type="number" id="to" value=9>
       </div>
       <div>
-        <p id="number" rows="1"></p>
+        <h1 id="number"></h1>
       </div>
       <script src="popup.js"></script>
     </body>
