@@ -1,8 +1,10 @@
-# example
+# Random-Number-Generator
 chrome extension
 
 ## 1.0.0
-icon  
+launch
+
+## 1.0.1
 option : default range of random number generation
 
 ## new feature TBD (option):
