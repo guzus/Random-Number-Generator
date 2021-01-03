@@ -1,5 +1,5 @@
 # Random-Number-Generator
-chrome extension
+[chrome extension](https://chrome.google.com/webstore/detail/random-number-generator/paeakpmmphgagngkbapdipelenhnodef)
 
 ## 1.0
 launch
