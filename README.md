@@ -1,5 +1,5 @@
 # Random-Number-Generator
-chrome extension
+[chrome extension](https://chrome.google.com/webstore/detail/random-number-generator/paeakpmmphgagngkbapdipelenhnodef)
 
 ## 1.0
 launch
@@ -10,6 +10,6 @@ maintain from, to value using storage
 ##
 option : default range of random number generation
 
-## new feature TBD (option):
+## new feature (option):
 - 돌림판 애니메이션 turning plate
 - 주사위 애니메이션
