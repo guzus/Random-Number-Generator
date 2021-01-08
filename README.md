@@ -1,10 +1,13 @@
 # Random-Number-Generator
 chrome extension
 
-## 1.0.0
+## 1.0
 launch
 
-## 1.0.1
+## 1.1
+maintain from, to value using storage
+
+##
 option : default range of random number generation
 
 ## new feature TBD (option):
